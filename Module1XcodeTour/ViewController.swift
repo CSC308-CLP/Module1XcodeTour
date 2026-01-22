@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var valueLabel: UILabel!
+    @IBOutlet weak var inputTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func resultButton(_ sender: UIButton) {
+        
+        
+    }
+    
 
 }
 
