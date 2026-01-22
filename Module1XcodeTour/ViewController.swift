@@ -16,8 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func resultButton(_ sender: UIButton) {
-        
-        
+        valueLabel.text = "Hello, "+(inputTextField.text ?? "World")
     }
     
 
